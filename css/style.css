@@ -1,0 +1,38 @@
+*{ /** selecteur universel **/
+	 margin:0px;
+	 padding:0px;
+}
+
+body{
+	background:#f8f3f3;
+}
+
+section{
+	margin:40px;
+	padding:25px;
+	border: 1px solid;
+	border-radius:15px;
+	background: #ffffff;
+}
+
+.profil{
+	display:flex;
+	justify-content:space-between;
+}
+
+.experience{
+	
+}
+
+.formation{
+	
+}
+
+.plus{
+	display:flex;
+	justify-content:space-around;
+}
+
+ul{
+	list-style-type:none;
+}
