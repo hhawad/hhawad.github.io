@@ -1,60 +1,89 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>mon CV</title>
-		<link rel="stylesheet" href="css/style.css"/> 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	</head>
-	
-	<body>
-		<section class="profil">
-			<div class="identite">
-				<h1>Diallo hadja</h1>
-				<p><b><i class="fa-solid fa-envelope"></i> Email :</b> hadjaibrahima23@gmail.com</p>
-				<p><b><i class="fa-solid fa-location-dot"></i> Adresse :</b> 2 rue bonvoisin</p>
-				<p><b><i class="fa-solid fa-phone"></i> Numero : </b> 0759897753</p>
-			</div>
-			
-			<img src="images/profil.png" height="64" alt="photo de profil" title="photo de profil"/>
-		</section>
-		<!-- experience-->
-		
-		<section class="experience">
-			<h2>Experience :</h2>
-			<ul> <!-- declaration de liste non ordonné -->
-				<li> <i> 2024 </i> - <b>entreprenariat</b> - </li> <!-- element de la liste -->
-				<li> <i> 2023 </i> - <b>entreprenariat</b> - </li>			
-			</ul>
-		</section>
-		
-		<section class="formation">
-			<h2>Formation :</h2>
-			<ul>
-				<li> <i> 2024-2026 </i> -<b> BTS informatique </b>- stjosup</li>
-				<li> <i> 2023-2024 </i> -<b> Licence 1 miage </b>- universite nongo conakry</li>
-				<li> <i>2022-2023  </i> -<b> Entreprenariat  </b>- longrich </li>
-				
-			</ul>
-		</section>
-		
-		<section class="plus">
-			<div class="competence">
-				<h2>competence :</h2>
-				<ul>
-					<li>Microsoft Office</li>
-					<li>Windows</li>
-					<li>HTML/CSS</li>
-				</ul>
-			</div>
-			
-			<div class="langue">
-				<h2>Langue :</h2>
-				<ul>
-					<li>Français</li>
-					<li>Anglais</li>
-				</ul>
-			</div>
-		</section>		
-		
-	</body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Hadja Hawa DIALLO</title>
+  <!-- Lien vers le fichier CSS -->
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <aside class="sidebar">
+<div class="photo">
+  <img src="hadja.jpg" alt="Photo de profil - Hadja Hawa DIALLO">
+</div>
+
+      <h1>Hadja Hawa DIALLO</h1>
+      <p class="description">1 ere annéen de BTS SIO</p>
+
+      <section class="contact">
+          <h2>Contact</h2>
+          <p>06 69 44 32 14</p>
+         <p>hadja.diallo@sjosup.com</p>
+        <p>linkedin.com/in/hhawad</p>
+        <p>hhawad.github.io</p>
+
+          <p>Localisation : Le Havre</p>
+      </section>
+
+      <section class="Competence">
+          <h2>Compétences</h2>
+          <p><strong>Savoir-faire :</strong></p>
+          <ul>
+              <li>HTML, CSS </li>
+              <li>Python, PHP, C#</li>
+              <li>SQL / MySQL</li>
+              <li>Cisco Packet Tracer</li>
+              <li>Suite Office 365</li>
+          </ul>
+      </section>
+  </aside>
+
+  <main class="main-content">
+      <header class="presentation">
+          <h2>Accroche</h2>
+          <p>
+              Étudiante en BTS Informatique.
+              Motivée et passionnée par le numérique,je développe mes connaissances en programmation,
+              bases de données et gestion de projets, que je souhaite mettre à profit pour contribuer à des projets concrets.
+
+
+      </header>
+
+      <section class="experience">
+          <h2>Expérience</h2>
+
+          <div class="exp-item">
+              <h3>Stagiaire en Analyse de Données</h3>
+              <p class="meta">Orange Guinée – Conakry, Guinée</p>
+              <ul>
+                  <li>Création de tableaux de bord Excel.</li>
+                  <li>Analyse de données et rapports.</li>
+                  <li>Automatisation avec tableaux croisés dynamiques.</li>
+              </ul>
+          </div>
+
+          <div class="exp-item">
+              <h3>Création d'un site web vitrine</h3>
+              <p>Développement d'un site web marchand.</p>
+              <p><strong>Language :</strong> HTML5, CSS3, PHP, MySQL</p>
+          </div>
+
+          <div class="exp-item">
+              <h3>Simulation de réseau avec Packet Tracer</h3>
+              <p>Création d'une topologie réseau simple avec Packet Tracer pour simuler la communication entre plusieurs équipements (PC, switch, routeur).</p>
+              <p><strong>Outils :</strong> Cisco Packet Tracer</p>
+          </div>
+      </section>
+
+      <section class="education">
+          <h2>Formation</h2>
+          <ul>
+              <li><strong>2025 — 2026</strong> : 1ère année BTS Informatique — Saint-Joseph, Le Havre</li>
+              <li><strong>2023 — 2024</strong> : Licence 1 MIAGE — Université Nongo de Conakry (Guinée)</li>
+              <li><strong>2022 — 2023</strong> : Baccalauréat Sciences Mathématiques — SAFIA-École Conakry (Guinée)</li>
+          </ul>
+      </section>
+  </main>
+</body>
 </html>
